@@ -9,7 +9,7 @@ spec:
     chartRepository: https://github.com/jenkins-x-bdd/repo.git
     clusterName: kind
     devEnvApprovers:
-    - todo
+      - todo
     environmentGitOwner: todo
     gitKind: github
     gitName: github
@@ -17,10 +17,10 @@ spec:
     provider: kubernetes
     registry: ghcr.io
   environments:
-  - key: dev
-    owner: rajatgupta24
-    repository: jx-k3s-3
-  - key: staging
+    - key: dev
+      owner: rajatgupta24
+      repository: jx-k3s-3
+    - key: staging
   ingress:
     domain: 192.168.29.42.nip.io
     ignoreLoadBalancer: true
@@ -31,7 +31,7 @@ spec:
       enabled: false
       production: false
   pipelineUser:
-    email: rajat
+    email: rajat2411gupta@gmail.com
     username: rajatgupta24
   repository: bucketrepo
   secretStorage: vault
