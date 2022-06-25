@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: quickstart-001
     - name: quickstart-002
+    - name: quickstart-003
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'

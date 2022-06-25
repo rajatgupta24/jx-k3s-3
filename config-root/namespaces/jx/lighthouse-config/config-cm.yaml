@@ -10,6 +10,7 @@ data:
         rajatgupta24/jx-k3s-3: true
         rajatgupta24/quickstart-001: true
         rajatgupta24/quickstart-002: true
+        rajatgupta24/quickstart-003: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -24,6 +25,7 @@ data:
         rajatgupta24/jx-k3s-3: merge
         rajatgupta24/quickstart-001: merge
         rajatgupta24/quickstart-002: merge
+        rajatgupta24/quickstart-003: merge
       queries:
       - labels:
         - approved
@@ -37,6 +39,7 @@ data:
         - rajatgupta24/jx-k3s-3
         - rajatgupta24/quickstart-001
         - rajatgupta24/quickstart-002
+        - rajatgupta24/quickstart-003
       - labels:
         - updatebot
         missingLabels:
@@ -49,6 +52,7 @@ data:
         - rajatgupta24/jx-k3s-3
         - rajatgupta24/quickstart-001
         - rajatgupta24/quickstart-002
+        - rajatgupta24/quickstart-003
       target_url: http://lighthouse.jx.192.168.29.42.nip.io/merge/status
 kind: ConfigMap
 metadata:
