@@ -22,7 +22,7 @@ spec:
     repository: jx-k3s-3
   - key: staging
   ingress:
-    domain: ""
+    domain: 192.168.29.42.nip.io
     ignoreLoadBalancer: true
     kind: ingress
     namespaceSubDomain: .jx.
@@ -31,6 +31,7 @@ spec:
       enabled: false
       production: false
   pipelineUser:
+    email: rajat
     username: rajatgupta24
   repository: bucketrepo
   secretStorage: vault
